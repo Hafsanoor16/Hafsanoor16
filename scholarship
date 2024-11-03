@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main(){
+
+  double scholarship;
+
+   cout<<"Enter student GPS for scholarship"<<endl;
+   cin>>scholarship;
+
+   if( scholarship =+3.5)
+{
+
+    cout<<"congratulations you are eligible scholarship"<<endl;
+}
+  else
+
+   cout<<"sorry you do not qualify for the scholarship"<<endl;
+
+ return 0;
+
+  }
+
+
