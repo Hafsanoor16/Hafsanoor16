@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main(){
+
+  int rating;
+
+  cout<<"Enter movie rating(1-4)"<<endl;
+  cin>>rating;
+
+   if(rating==1){
+    cout<<"This movie is suitable for all audiences"<<endl;
+   }
+
+  else if(rating==2){
+    cout<<"This movie is suitable for+7 years audience"<<endl;
+  }
+
+  else if(rating==3){
+    cout<<"This movie is suitable for+13 years audience"<<endl;
+  }
+
+  else if(rating==4){
+    cout<<"this movie is suitable for+18 years audience"<<endl;
+  }
+
+  else
+
+    cout<<"invalid rating"<<endl;
+
+ return 0;
+
+  }
+
+
