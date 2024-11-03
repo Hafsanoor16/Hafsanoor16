@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main(){
+
+   double temperature;
+
+   cout<<"Enter the temperature"<<endl;
+   cin>>temperature;
+
+   if(temperature<10){
+    cout<<"The temperature is cold"<<endl;
+   }
+
+  else if(temperature>10 && temperature<45){
+    cout<<"The temperature is moderate"<<endl;
+  }
+  else{
+    cout<<"temperature is hot"<<endl;
+  }
+  return 0;
+}
